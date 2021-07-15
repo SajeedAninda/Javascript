@@ -1,0 +1,12 @@
+// Exercises: Arrays
+// Your top choices
+// Create an array to hold your top choices (country, colors, presidents, whatever).
+// For each choice, log to the screen a string like: "My #1 choice is blue."
+// Bonus: Change it to log "My 1st choice, "My 2nd choice", "My 3rd choice", picking the right suffix for the number based on what it is.
+
+let country=["Argentina","Spain","Italy","Germany","China","America"];
+
+for(let i=0;i<country.length;i++){
+console.log(` My Number-${i+1} choice is ${country[i]} `);
+}
+
